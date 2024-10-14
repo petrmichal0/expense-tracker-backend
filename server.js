@@ -14,7 +14,7 @@ const app = require("./app");
 
 // Connect to MongoDB
 const DB = process.env.DATABASE.replace(
-  "<PASSWORD>",
+  "<DATABASE_PASSWORD>",
   process.env.DATABASE_PASSWORD
 );
 
