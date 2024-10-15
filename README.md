@@ -77,9 +77,9 @@ To run this application, you'll need to set up the following environment variabl
    * Follow the instructions to **download MongoDB Compass**, if you haven’t already.
    * Once downloaded, copy the **connection string** provided. The connection string will look something like this:
      ```text
-     mongodb+srv://<username>:<password>@cluster0.mongodb.net/myDatabase?retryWrites=true&w=majority
+     mongodb+srv://<USERNAME>:<DATABASE_PASSWORD>@cluster0.mongodb.net/myDatabase?retryWrites=true&w=majority
      ```
-   * Replace `<username>` and `<password>` with your MongoDB Atlas credentials. You'll need to input the username and password you created when setting up your MongoDB cluster.
+   * Replace `<USERNAME>` with your MongoDB Atlas credentials. You'll need to input the username and password you created when setting up your MongoDB cluster.
    * Open MongoDB Compass, paste the connection string, and connect to your database.
 
 4. **Secure your environment variables:**  
