@@ -117,6 +117,9 @@ All API endpoints and detailed documentation on how to interact with the backend
 The frontend for this project is hosted at the following URL:
 
 - **Frontend Application:** [https://snack.expo.dev/@petrmichal0/expense-tracker-frontend?platform=android](https://snack.expo.dev/@petrmichal0/expense-tracker-frontend?platform=android)
+
+You can access and interact with the application directly through this link. The frontend is designed to work seamlessly with the backend API.
+
 - **Frontend Repository:** [https://github.com/petrmichal0/expense-tracker-frontend](https://github.com/petrmichal0/expense-tracker-frontend)
 
 ### Project Structure
