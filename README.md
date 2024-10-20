@@ -97,12 +97,12 @@ The server will run on the specified port (default is 3000). You can access the 
 
 ### API Endpoints
 
-| HTTP Method | Endpoint              | Description                | Example Request                             | Example Response                          |
-| ----------- | --------------------- | -------------------------- | ------------------------------------------- | ----------------------------------------- |
-| GET         | /api/v1/expenses       | Fetch all expenses          | http://localhost:3000/api/v1/expenses       | `{ "status": "success", "data": {...} }`  |
-| POST        | /api/v1/expenses       | Add a new expense           | http://localhost:3000/api/v1/expenses       | `{ "status": "success", "data": {...} }`  |
-| PATCH       | /api/v1/expenses/:id   | Update an expense by ID     | http://localhost:3000/api/v1/expenses/1     | `{ "status": "success", "data": {...} }`  |
-| DELETE      | /api/v1/expenses/:id   | Delete an expense by ID     | http://localhost:3000/api/v1/expenses/1     | `{ "status": "success", "data": null }`   |
+| HTTP Method | Endpoint              | Description                | Example Request                             | Example Response                          | Authorization Required |
+| ----------- | --------------------- | -------------------------- | ------------------------------------------- | ----------------------------------------- | ----------------------- |
+| GET         | /api/v1/expenses       | Fetch all expenses          | http://localhost:3000/api/v1/expenses       | `{ "status": "success", "data": {...} }`  | No                      |
+| POST        | /api/v1/expenses       | Add a new expense           | http://localhost:3000/api/v1/expenses       | `{ "status": "success", "data": {...} }`  | No                      |
+| PATCH       | /api/v1/expenses/:id   | Update an expense by ID     | http://localhost:3000/api/v1/expenses/1     | `{ "status": "success", "data": {...} }`  | No                      |
+| DELETE      | /api/v1/expenses/:id   | Delete an expense by ID     | http://localhost:3000/api/v1/expenses/1     | `{ "status": "success", "data": null }`   | No                      |
 
 ## Backend Information
 
