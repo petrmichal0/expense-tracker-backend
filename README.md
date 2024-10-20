@@ -108,7 +108,7 @@ The server will run on the specified port (default is 3000). You can access the 
 
 The backend for this project is hosted at the following URL:
 
-- **Backend API:** [https://expense-tracker-v1-backend-e443d7377cc0.herokuapp.com/](https://expense-tracker-v1-backend-e443d7377cc0.herokuapp.com/)
+- **Backend API:** https://expense-tracker-v1-backend-e443d7377cc0.herokuapp.com/
 
 All API endpoints and detailed documentation on how to interact with the backend are provided in this README.
 
@@ -144,9 +144,9 @@ expense-tracker-backend/
 
 ### Technologies Used
 
-[![Node.js Badge](https://img.shields.io/badge/-Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](#) 
-[![Express Badge](https://img.shields.io/badge/-Express-000000?style=for-the-badge&logo=express&logoColor=white)](#) 
-[![MongoDB Badge](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](#)
+[![Node.js Badge](https://img.shields.io/badge/-Node.js-43853D?style=for-the-badge&labelColor=black&logo=node.js&logoColor=43853D)](#)
+[![Express Badge](https://img.shields.io/badge/-Express-000000?style=for-the-badge&labelColor=black&logo=express&logoColor=white)](#)
+[![MongoDB Badge](https://img.shields.io/badge/-MongoDB-4DB33D?style=for-the-badge&labelColor=black&logo=mongodb&logoColor=4DB33D)](#)
 
 ### Third-Party Libraries
 
@@ -161,5 +161,5 @@ expense-tracker-backend/
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the LICENSE file for details.
 
